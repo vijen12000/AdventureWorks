@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { SectionSalesOrderComponent } from './dashboard/section-sales-order/section-sales-order.component';
-import { SectionPurchaseOrderComponent } from './dashboard/section-purchase-order/section-purchase-order.component';
-import { SectionSystemHealthComponent } from './dashboard/section-system-health/section-system-health.component';
+import { BarChartComponent } from './charts/bar-chart/bar-chart.component';
+import { LineChartComponent } from './charts/line-chart/line-chart.component';
+import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SidebarComponent,
-    SectionSalesOrderComponent,
-    SectionPurchaseOrderComponent,
-    SectionSystemHealthComponent
+    BarChartComponent,
+    LineChartComponent,
+    PieChartComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

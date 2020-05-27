@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SectionSalesOrderComponent } from './section-sales-order.component';
+import { PieChartComponent } from './pie-chart.component';
 
-describe('SectionSalesOrderComponent', () => {
-  let component: SectionSalesOrderComponent;
-  let fixture: ComponentFixture<SectionSalesOrderComponent>;
+describe('PieChartComponent', () => {
+  let component: PieChartComponent;
+  let fixture: ComponentFixture<PieChartComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SectionSalesOrderComponent ]
+      declarations: [ PieChartComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SectionSalesOrderComponent);
+    fixture = TestBed.createComponent(PieChartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
